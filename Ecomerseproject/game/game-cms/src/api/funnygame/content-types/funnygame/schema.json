@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funnygames",
+  "info": {
+    "singularName": "funnygame",
+    "pluralName": "funnygames",
+    "displayName": "funnygame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
